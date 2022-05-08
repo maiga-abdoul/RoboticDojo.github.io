@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    
+}
+
+#img{
+    
+}
+
+.profile{
+    width: 40%;
+    height: 240px;
+    padding: 10px;
+    background-image: url(./robot1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  
+}
+
+.my-photo{
+}
+
+body{
+    background-color: rgb(24, 26, 26);
+}
+.container{
+  
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
